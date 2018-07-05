@@ -1,4 +1,5 @@
 Remove ILOVECANDY from /etc/pacman.conf
+change /etc/os-release file to contents of os-release.txt
 remove arcolinix repository /etc/pacman.conf
 
 GTK Add-on for fixing GTK Themes:
