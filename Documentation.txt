@@ -26,6 +26,8 @@ KDE Apps to add
 konsole
 dolphin
 dolphin-plugins
+kdegraphics
+kdegraphics-thumbnailers
 kate
 
 Theming
