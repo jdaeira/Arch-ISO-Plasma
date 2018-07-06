@@ -1,6 +1,16 @@
+Remove Lauch Feedback: Settings->Applications->Lauch Feedback
+Double Click folders: Settings->Desktop Behavior->Workspace
+Logout Wallpaper: Settings->Desktop Behavior->Screen Locking ->Appearance Tab
 Remove ILOVECANDY from /etc/pacman.conf
-change /etc/os-release file to contents of os-release.txt
 remove arcolinix repository /etc/pacman.conf
+change /etc/os-release file to contents of os-release.txt
+
+Change limit of open files for MS Code
+sudo nano /etc/security/limits.conf
+add these two lines:
+*     soft   nofile     10000
+*     hard   nofile     30000
+reboot
 
 GTK Add-on for fixing GTK Themes:
 install: kde-gtk-config
@@ -14,14 +24,20 @@ Apps to remove
 mousepad
 xterm
 termite
-sardi-icons
+sardi-icons?
 
 Apps to add
+pamac
 firefox
 google-chrome
 tilix
 neofetch
+screenfetch
+libreoffice-fresh
 grub-customizer
+code
+vlc
+shutter
 
 KDE Apps to add
 konsole
@@ -29,7 +45,15 @@ dolphin
 dolphin-plugins
 kdegraphics
 kdegraphics-thumbnailers
+ffmpegthumbs
 kate
+gwenview
+okular
 
 Theming
 papirus-icon-theme
+
+Remmina setup:
+remmina
+remmina-plugin-rdesktop
+freerdp
