@@ -19,5 +19,5 @@ sudo pacman -S flatpak --noconfirm --needed
 
 
 echo "################################################################"
-echo "#########      Must Have Apps Installed         ################"
+echo "#########      Personal Apps Installed          ################"
 echo "################################################################"
