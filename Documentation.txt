@@ -11,6 +11,8 @@ add these two lines:
 *     soft   nofile     10000
 *     hard   nofile     30000
 reboot
+install package: code
+
 
 GTK Add-on for fixing GTK Themes:
 install: kde-gtk-config
@@ -23,11 +25,11 @@ run: xdg-user-dirs-update
 Apps to remove
 mousepad
 xterm
-termite
-sardi-icons?
+#termite
+#sardi-icons?
 
 Apps to add
-pamac
+pamac-aur
 firefox
 google-chrome
 tilix
@@ -35,9 +37,9 @@ neofetch
 screenfetch
 libreoffice-fresh
 grub-customizer
-code
 vlc
 shutter
+hexchat
 
 KDE Apps to add
 konsole
