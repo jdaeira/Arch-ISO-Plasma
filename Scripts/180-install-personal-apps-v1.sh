@@ -10,18 +10,14 @@ set -e
 ##################################################################################################################
 
 #KDE Apps
-sudo pacman -S konsole --noconfirm --needed
-sudo pacman -S dolphin --noconfirm --needed
-sudo pacman -S dolphin-plugins --noconfirm --needed
-sudo pacman -S kdegraphics --noconfirm --needed
-sudo pacman -S kdegraphics-thumbnailers --noconfirm --needed
-sudo pacman -S ffmpegthumbs --noconfirm --needed
-sudo pacman -S kate --noconfirm --needed
-sudo pacman -S gwenview --noconfirm --needed
-sudo pacman -S okular --noconfirm --needed
-sudo pacman -S spectacle --noconfirm --needed
+sudo yaourt -S google-chrome --noconfirm --needed
+sudo yaourt -S synology-note-station --noconfirm --needed
+sudo yaourt -S gpmdp --noconfirm --needed
+sudo yaourt -S spotify --noconfirm --needed
+sudo pacman -S hexchat --noconfirm --needed
+sudo pacman -S flatpak --noconfirm --needed
 
 
 echo "################################################################"
-echo "#########      KDE Applications Installed       ################"
+echo "#########      Must Have Apps Installed         ################"
 echo "################################################################"

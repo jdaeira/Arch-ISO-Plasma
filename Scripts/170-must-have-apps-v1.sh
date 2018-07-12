@@ -12,7 +12,6 @@ set -e
 #KDE Apps
 sudo yaourt -S pamac-aur --noconfirm --needed
 sudo pacman -S firefox --noconfirm --needed
-sudo yaourt -S google-chrome --noconfirm --needed
 sudo pacman -S tilix --noconfirm --needed
 sudo pacman -S neofetch --noconfirm --needed
 sudo pacman -S screenfetch --noconfirm --needed
