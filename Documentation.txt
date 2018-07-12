@@ -4,6 +4,8 @@ Logout Wallpaper: Settings->Desktop Behavior->Screen Locking ->Appearance Tab
 Remove ILOVECANDY from /etc/pacman.conf
 remove arcolinix repository /etc/pacman.conf
 change /etc/os-release file to contents of os-release.txt
+change /etc/lsb-release file to contents of lsb-release.txt
+change Linux name in grub file to "Arch": /etc/default/grub
 
 Change limit of open files for MS Code
 sudo nano /etc/security/limits.conf
