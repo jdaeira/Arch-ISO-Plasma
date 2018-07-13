@@ -25,4 +25,8 @@ sudo systemctl enable -f sddm
 
 echo "Remove anything you do not like from the installed applications"
 
+echo "################################################################"
+echo "######### Display Manager and Desktop Installed ################"
+echo "################################################################"
+
 

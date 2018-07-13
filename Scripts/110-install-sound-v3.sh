@@ -20,5 +20,5 @@ sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugl
 #sudo pacman -S playerctl --noconfirm --needed
 
 echo "################################################################"
-echo "#########   sound software software installed   ################"
+echo "#########        sound software installed       ################"
 echo "################################################################"
