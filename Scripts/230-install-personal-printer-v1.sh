@@ -10,11 +10,13 @@ set -e
 ##################################################################################################################
 
 #KDE Apps
-sudo pacman -S remmina --noconfirm --needed
-sudo yaourt -S remmina-plugin-rdesktop --noconfirm --needed
-sudo pacman -S freerdp --noconfirm --needed
+yaourt -S brother-dcpl2520dw --noconfirm --needed
+yaourt -S brscan4 --noconfirm --needed
+sudo pacman -S simple-scan --noconfirm --needed
+
+
 
 
 echo "################################################################"
-echo "#########          Remmina Installed            ################"
+echo "#########      Printer and Scanner Installed    ################"
 echo "################################################################"

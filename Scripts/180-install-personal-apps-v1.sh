@@ -10,10 +10,10 @@ set -e
 ##################################################################################################################
 
 #KDE Apps
-sudo yaourt -S google-chrome --noconfirm --needed
-sudo yaourt -S synology-note-station --noconfirm --needed
-sudo yaourt -S gpmdp --noconfirm --needed
-sudo yaourt -S spotify --noconfirm --needed
+yaourt -S google-chrome --noconfirm --needed
+yaourt -S synology-note-station --noconfirm --needed
+yaourt -S gpmdp --noconfirm --needed
+yaourt -S spotify --noconfirm --needed
 sudo pacman -S hexchat --noconfirm --needed
 sudo pacman -S flatpak --noconfirm --needed
 

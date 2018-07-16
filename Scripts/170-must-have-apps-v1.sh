@@ -10,15 +10,15 @@ set -e
 ##################################################################################################################
 
 #KDE Apps
-sudo yaourt -S pamac-aur --noconfirm --needed
+yaourt -S pamac-aur --noconfirm --needed
 sudo pacman -S firefox --noconfirm --needed
 sudo pacman -S tilix --noconfirm --needed
 sudo pacman -S neofetch --noconfirm --needed
 sudo pacman -S screenfetch --noconfirm --needed
 sudo pacman -S libreoffice-fresh --noconfirm --needed
-sudo yaourt -S grub-customizer --noconfirm --needed
+yaourt -S grub-customizer --noconfirm --needed
 sudo pacman -S vlc --noconfirm --needed
-sudo yaourt -S shutter --noconfirm --needed
+yaourt -S shutter --noconfirm --needed
 sudo pacman -S hexchat --noconfirm --needed
 
 
