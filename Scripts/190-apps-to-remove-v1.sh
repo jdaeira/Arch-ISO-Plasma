@@ -10,7 +10,7 @@ set -e
 ##################################################################################################################
 
 #KDE Apps
-sudo pacman -Rns mouse --noconfirm 
+sudo pacman -Rns mousepad --noconfirm 
 sudo pacman -Rns xterm --noconfirm
 
 

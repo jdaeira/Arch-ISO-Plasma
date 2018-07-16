@@ -19,6 +19,7 @@ sudo pacman -S libreoffice-fresh --noconfirm --needed
 yaourt -S grub-customizer --noconfirm --needed
 sudo pacman -S vlc --noconfirm --needed
 yaourt -S shutter --noconfirm --needed
+yaourt -S perl-goo-canvas --noconfirm --needed
 sudo pacman -S hexchat --noconfirm --needed
 
 

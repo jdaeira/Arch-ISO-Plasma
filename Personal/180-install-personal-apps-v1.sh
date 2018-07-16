@@ -16,7 +16,7 @@ yaourt -S gpmdp --noconfirm --needed
 yaourt -S spotify --noconfirm --needed
 sudo pacman -S hexchat --noconfirm --needed
 sudo pacman -S flatpak --noconfirm --needed
-
+flatpak install flathub com.visualstudio.code
 
 echo "################################################################"
 echo "#########      Personal Apps Installed          ################"
