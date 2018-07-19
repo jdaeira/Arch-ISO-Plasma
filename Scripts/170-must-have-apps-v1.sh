@@ -9,7 +9,7 @@ set -e
 #
 ##################################################################################################################
 
-#KDE Apps
+
 yaourt -S pamac-aur --noconfirm --needed
 sudo pacman -S firefox --noconfirm --needed
 sudo pacman -S tilix --noconfirm --needed
