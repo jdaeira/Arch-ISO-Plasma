@@ -11,13 +11,13 @@ set -e
 
 echo "Deleting all kde games"
 
-sudo pacman -Rc --noconfirm kdeedu-meta
+#sudo pacman -Rc --noconfirm kdeedu-meta
 
 sudo pacman -R --noconfirm blinken
 sudo pacman -R --noconfirm kanagram
 sudo pacman -R --noconfirm khangman
 
-sudo pacman -Rc --noconfirm kdegames-meta
+#sudo pacman -Rc --noconfirm kdegames-meta
 
 sudo pacman -R --noconfirm lskat
 sudo pacman -R --noconfirm picmi
