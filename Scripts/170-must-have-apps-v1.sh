@@ -11,6 +11,7 @@ set -e
 
 
 yaourt -S pamac-aur --noconfirm --needed
+yaourt -S pamac-tray-appindicator --noconfirm --needed
 sudo pacman -S firefox --noconfirm --needed
 sudo pacman -S tilix --noconfirm --needed
 sudo pacman -S neofetch --noconfirm --needed

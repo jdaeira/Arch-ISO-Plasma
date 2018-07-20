@@ -1,0 +1,55 @@
+Graphics
+--------
+Okular
+Gwenview
+Skanlite -> Extra
+
+Internet
+--------
+Firefox
+akregator -> Extra
+kmail -> Extra
+kmail-account-wizard -> Extra
+mbox-importer -> Extra
+konversation -> Extra
+krdc -> Extra
+ktnef -> Extra
+ktorrent -> Extra
+pim-data-exporter -> Extra
+pim-sieve-editor -> Extra
+
+Multimedia
+----------
+VLC
+Pulse Audio -> Sound Scxript
+k3b -> Extra
+
+Office
+------
+Okular
+Libre Office -> Extra
+
+Settings
+--------
+System Settings
+
+System
+------
+Dolphin
+Info Center
+Discover
+KSysGuard
+ksystemlog -> Extra
+Konsole
+KWalletManager
+partitionmanager -> Extra
+pamac-aur
+
+Utilities
+---------
+Ark
+Spectacle
+KWrite
+kcalc -> Extra
+kleopatra -> Extra
+knotes -> Extra
