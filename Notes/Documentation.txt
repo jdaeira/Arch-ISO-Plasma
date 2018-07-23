@@ -1,0 +1,63 @@
+Remove Lauch Feedback: Settings->Applications->Lauch Feedback
+Double Click folders: Settings->Desktop Behavior->Workspace
+Logout Wallpaper: Settings->Desktop Behavior->Screen Locking ->Appearance Tab
+Remove ILOVECANDY from /etc/pacman.conf
+remove arcolinix repository /etc/pacman.conf
+change /etc/os-release file to contents of os-release.txt
+change /etc/lsb-relejdaeiase file to contents of lsb-release.txt
+change Linux name in grub file to "Arch": /etc/default/grub
+
+Change limit of open files for MS Code
+sudo nano /etc/security/limits.conf
+add these two lines:
+*     soft   nofile     10000
+*     hard   nofile     30000
+reboot
+install package: code
+
+
+GTK Add-on for fixing GTK Themes:
+install: kde-gtk-config
+install Adapta GTK Theme: adapta-gtk-theme
+
+Update User Default Folders
+install: xdg-user-dirs
+run: xdg-user-dirs-update
+
+Apps to remove
+mousepad
+xterm
+#termite
+#sardi-icons?
+
+Apps to add
+pamac-aur
+firefox
+google-chrome
+tilix
+neofetch
+screenfetch
+libreoffice-fresh
+grub-customizer
+vlc
+shutter
+hexchat
+
+KDE Apps to add
+konsole
+dolphin
+dolphin-plugins
+kdegraphics
+kdegraphics-thumbnailers
+ffmpegthumbs
+kate
+gwenview
+okular
+
+Theming
+papirus-icon-theme
+
+Remmina setup:
+remmina
+remmina-plugin-rdesktop
+freerdp
