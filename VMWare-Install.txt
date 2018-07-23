@@ -1,5 +1,0 @@
-sudo pacman -S net-tools gtkmm 
-sudo pacman -Sy open-vm-tools
-sudo pacman -Sy xf86-video-vmware
-sudo pacman -Sy xf86-input-mouse
-systemctl enable vmtoolsd
