@@ -15,6 +15,18 @@ add these two lines:
 reboot
 install package: code
 
+Fix Fonts in LibreOffice
+To disable this and get correct smoothing at all sizes do this: Create a file called .fonts.conf in the ~/.config/fontconfig directory, paste this code in it:
+<match target="font" >
+    <edit name="embeddedbitmap" mode="assign">
+        <bool>false</bool>
+    </edit>
+</match>
+
+TeamViewer Start
+systemctl enable teamviewerd
+systemctl start teamviewerd
+
 
 GTK Add-on for fixing GTK Themes:
 install: kde-gtk-config
