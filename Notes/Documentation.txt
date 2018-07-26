@@ -1,3 +1,5 @@
+Update Grub: grub-mkconfig -o /boot/grub/grub.cfg
+
 Remove Lauch Feedback: Settings->Applications->Lauch Feedback
 Double Click folders: Settings->Desktop Behavior->Workspace
 Logout Wallpaper: Settings->Desktop Behavior->Screen Locking ->Appearance Tab
