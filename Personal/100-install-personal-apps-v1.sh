@@ -17,8 +17,8 @@ yaourt -S spotify --noconfirm --needed
 yaourt -S sublime-text-dev --noconfirm --needed
 yaourt -S ckb-next --noconfirm --needed
 sudo pacman -S hexchat --noconfirm --needed
-sudo pacman -S flatpak --noconfirm --needed
-flatpak install flathub com.visualstudio.code
+yaourt -S code --noconfirm --needed
+
 
 echo "################################################################"
 echo "#########      Personal Apps Installed          ################"

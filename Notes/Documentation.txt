@@ -9,6 +9,8 @@ change /etc/os-release file to contents of os-release.txt
 change /etc/lsb-relejdaeiase file to contents of lsb-release.txt
 change Linux name in grub file to "Arch": /etc/default/grub
 
+gpg --recv-keys 465022E743D71E39 
+
 Change limit of open files for MS Code
 sudo nano /etc/security/limits.conf
 add these two lines:
