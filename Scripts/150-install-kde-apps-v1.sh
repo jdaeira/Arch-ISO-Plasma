@@ -20,6 +20,7 @@ sudo pacman -S kate --noconfirm --needed
 sudo pacman -S gwenview --noconfirm --needed
 sudo pacman -S okular --noconfirm --needed
 sudo pacman -S spectacle --noconfirm --needed
+sudo pacman -S latte-dock --noconfirm --needed
 
 
 echo "################################################################"
