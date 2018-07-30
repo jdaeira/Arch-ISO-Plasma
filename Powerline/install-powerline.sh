@@ -1,5 +1,7 @@
 #! /bin/bash
 
+https://github.com/b-ryan/powerline-shell
+
 # install pip 
 # install powerline
 # need powerline-fonts from pacman
