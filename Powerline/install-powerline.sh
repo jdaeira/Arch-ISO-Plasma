@@ -1,16 +1,25 @@
 #! /bin/bash
+set -e
 
-https://github.com/b-ryan/powerline-shell
+# Powerline-Shell Url: https://github.com/b-ryan/powerline-shell
 
-# install pip 
-# install powerline
-# need powerline-fonts from pacman
-# create config file
-# add lines to .bashrc file: nano ~/.bashrc
-  function _update_ps1() {
-    PS1=$(powerline-shell $?)
-}
+##################################################################################################################
+# Author    : John da Eira
+# Email     : jdaeira@gmail.com
+##################################################################################################################
 
-if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-fi
+sudo pacman -S python-pip --noconfirm --needed
+sudo pip install --upgrade pip
+yaourt -S powerline-fonts --noconfirm --needed
+sudo pip install powerline-shell
+
+mkdir -p ~/.config/powerline-shell && \
+powerline-shell --generate-config > ~/.config/powerline-shell/config.json
+
+sudo cat config-file >> ~/.bashrc
+
+cp powerline-shell/* ~/.config/powerline-shell
+
+echo "***************************************************************"
+echo "****************   PowerLine Shell Installed   ****************"
+echo "***************************************************************"
