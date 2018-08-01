@@ -16,6 +16,7 @@ yaourt -S gpmdp --noconfirm --needed
 yaourt -S spotify --noconfirm --needed
 yaourt -S sublime-text-dev --noconfirm --needed
 yaourt -S ckb-next --noconfirm --needed
+yaourt -S android-messages-desktop --noconfirm --needed
 sudo pacman -S hexchat --noconfirm --needed
 yaourt -S code --noconfirm --needed
 
