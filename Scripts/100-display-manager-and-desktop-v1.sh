@@ -19,7 +19,7 @@ sudo pacman -R xcursor-breeze --noconfirm
 
 sudo pacman -Syyu
 sudo pacman -S sddm sddm-kcm --noconfirm --needed
-sudo pacman -S plasma-meta --noconfirm --needed
+sudo pacman -S plasma --noconfirm --needed
 #sudo pacman -S plasma-desktop --noconfirm --needed
 sddm --example-config | sudo tee /etc/sddm.conf
 sudo systemctl enable -f sddm
