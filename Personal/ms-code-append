@@ -1,0 +1,2 @@
+*     soft   nofile     10000
+*     hard   nofile     30000
