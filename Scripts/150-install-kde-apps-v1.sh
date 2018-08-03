@@ -21,6 +21,7 @@ sudo pacman -S gwenview --noconfirm --needed
 sudo pacman -S okular --noconfirm --needed
 sudo pacman -S spectacle --noconfirm --needed
 sudo pacman -S kaccounts-integration --noconfirm --needed
+sudo pacman -S kaccounts-providers --noconfirm --needed
 sudo pacman -S kcolorchooser --noconfirm --needed
 sudo pacman -S ark --noconfirm --needed
 sudo pacman -S kwrite --noconfirm --needed
