@@ -11,8 +11,8 @@ set -e
 
 
 
-cat os-release > /etc/os-release
-cat lsb-release > /etc/lsb-release
+sudo cat os-release > /etc/os-release
+sudo cat lsb-release > /etc/lsb-release
 yaourt -S aurman --noconfirm --needed
 
 
