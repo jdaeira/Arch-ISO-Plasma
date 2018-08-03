@@ -10,9 +10,8 @@ set -e
 ##################################################################################################################
 
 
-yaourt -Rns arcolinuxd-calamares-git --noconfirm --needed
-yaourt -Rns arcolinux-keyring --noconfirm --needed
-yaourt -Rns pcmciautils --noconfirm --needed
+yaourt -Rns arcolinux-keyring --noconfirm 
+yaourt -Rns arcolinux-neofetch-git --noconfirm 
 
 echo "################################################################"
 echo "#########          Arco Apps Removed            ################"
