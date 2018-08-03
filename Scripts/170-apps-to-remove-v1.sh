@@ -12,6 +12,7 @@ set -e
 #KDE Apps
 sudo pacman -Rns mousepad --noconfirm 
 sudo pacman -Rns xterm --noconfirm
+sudo pacman -Rns termite termite-terminfo --noconfirm
 
 
 echo "################################################################"
