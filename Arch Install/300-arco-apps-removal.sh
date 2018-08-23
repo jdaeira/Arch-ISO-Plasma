@@ -14,6 +14,7 @@ yaourt -Rns arcolinux-keyring --noconfirm
 yaourt -Rns arcolinux-neofetch-git --noconfirm 
 sudo rm -r ~/.config/neofetch
 yaourt -S neofetch --noconfirm --needed
+sudo cat config.conf > ~/.config/neofetch
 
 echo "################################################################"
 echo "#########          Arco Apps Removed            ################"
