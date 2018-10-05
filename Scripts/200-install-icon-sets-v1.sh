@@ -11,8 +11,17 @@ set -e
 
 
 
-yaourt -S surfn-icons-git --noconfirm --needed
-yaourt -S sardi-icons --noconfirm --needed
+git clone https://github.com/erikdubois/Surfn
+sudo cp Surfn/Surf* -r /usr/share/icons/
+sudo rm -r Surfn
+echo "########## Surfn Icons Installed ###########"
+
+
+git clone https://github.com/erikdubois/Sardi-Extra
+sudo cp Sardi-Extra/Sardi* -r /usr/share/icons/
+sudo rm -r Sardi-Extra
+echo "########## Sardi Icons Installed ###########"
+
 yaourt -S paper-icon-theme --noconfirm --needed
 sudo pacman -S papirus-icon-theme --noconfirm --needed
 
