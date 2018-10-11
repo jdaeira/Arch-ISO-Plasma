@@ -11,7 +11,6 @@ set -e
 
 #KDE Apps
 sudo pacman -S kde-gtk-config --noconfirm --needed
-sudo pacman -S adapta-gtk-theme --noconfirm --needed
 sudo pacman -S arc-gtk-theme --noconfirm --needed
 sudo pacman -S materia-gtk-theme --noconfirm --needed
 
