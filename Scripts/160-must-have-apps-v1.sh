@@ -10,17 +10,17 @@ set -e
 ##################################################################################################################
 
 
-yaourt -S pamac-aur --noconfirm --needed
-yaourt -S pamac-tray-appindicator --noconfirm --needed
+yay -S --noconfirm pamac-aur 
+yay -S --noconfirm pamac-tray-appindicator
 sudo pacman -S firefox --noconfirm --needed
 sudo pacman -S tilix --noconfirm --needed
 sudo pacman -S neofetch --noconfirm --needed
 sudo pacman -S screenfetch --noconfirm --needed
 sudo pacman -S libreoffice-fresh --noconfirm --needed
-yaourt -S grub-customizer --noconfirm --needed
+yay -S --noconfirm grub-customizer
 sudo pacman -S vlc --noconfirm --needed
-yaourt -S shutter --noconfirm --needed
-yaourt -S perl-goo-canvas --noconfirm --needed
+yay -S --noconfirm shutter
+yay -S --noconfirm perl-goo-canvas
 sudo pacman -S hexchat --noconfirm --needed
 
 

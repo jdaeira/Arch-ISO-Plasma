@@ -9,7 +9,7 @@ set -e
 #
 ##################################################################################################################
 
-
+sudo pacman -S --noconfirm --needed print-manager
 sudo pacman -S --noconfirm --needed cups cups-pdf
 
 #first try if you can print without footmatic

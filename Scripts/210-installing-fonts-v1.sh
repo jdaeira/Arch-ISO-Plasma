@@ -23,7 +23,7 @@ sudo pacman -S ttf-liberation --noconfirm --needed
 sudo pacman -S ttf-roboto --noconfirm --needed
 sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
 sudo pacman -S tamsyn-font --noconfirm --needed
-yaourt -S ttf-ms-fonts --noconfirm --needed
+yay -S --noconfirm ttf-ms-fonts
 
 echo "################################################################"
 echo "####             Fonts have been installed                  ####"
