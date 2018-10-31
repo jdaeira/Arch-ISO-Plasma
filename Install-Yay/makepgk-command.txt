@@ -1,0 +1,4 @@
+makepkg pacakge name
+
+Make a package with it's necessary dependencies
+makepkg --syncdeps
