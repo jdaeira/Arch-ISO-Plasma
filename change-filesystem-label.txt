@@ -1,0 +1,3 @@
+Example to create a label with no text
+
+sudo e2label /dev/sda5 ""
