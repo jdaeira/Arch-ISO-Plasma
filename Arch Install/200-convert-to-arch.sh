@@ -12,9 +12,9 @@ set -e
 
 
 sudo cat os-release > /etc/os-release
-sudo cat lsb-release > /etc/lsb-release
+#sudo cat lsb-release > /etc/lsb-release
 #sudo cat grub > /etc/default/grub
-sudo cat pacman.conf > /etc/pacman.conf
+#sudo cat pacman.conf > /etc/pacman.conf
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 

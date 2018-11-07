@@ -26,6 +26,7 @@ sudo pacman -S kcolorchooser --noconfirm --needed
 sudo pacman -S ark --noconfirm --needed
 sudo pacman -S kwrite --noconfirm --needed
 sudo pacman -S latte-dock --noconfirm --needed
+sudo pacman -S partitionmanager --noconfirm --needed
 
 
 echo "################################################################"

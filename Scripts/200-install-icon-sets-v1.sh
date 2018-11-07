@@ -22,7 +22,7 @@ sudo cp Sardi-Extra/Sardi* -r /usr/share/icons/
 sudo rm -r Sardi-Extra
 echo "########## Sardi Icons Installed ###########"
 
-yaourt -S paper-icon-theme --noconfirm --needed
+yay -S --noconfirm paper-icon-theme
 sudo pacman -S papirus-icon-theme --noconfirm --needed
 
 
