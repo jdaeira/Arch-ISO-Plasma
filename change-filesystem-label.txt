@@ -1,3 +1,5 @@
 Example to create a label with no text
 
+sudo blkid -c /dev/null - to get the labels
+
 sudo e2label /dev/sda5 ""
