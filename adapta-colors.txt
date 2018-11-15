@@ -1,0 +1,2 @@
+Focus Decoration: #7d8d99
+Hover Decoration: #7795b3
