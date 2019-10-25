@@ -1,4 +1,3 @@
-#!/bin/bash
 set -e
 ##################################################################################################################
 # Author    : John da Eira
@@ -9,14 +8,11 @@ set -e
 #
 ##################################################################################################################
 
-
-yay -Rns arcolinux-keyring --noconfirm 
-yay -Rns arcolinux-neofetch-git --noconfirm 
-sudo rm -r ~/.config/neofetch
-yay -S neofetch --noconfirm --needed
-neofetch
-sudo cat config.conf > ~/.config/neofetch
-
-echo "################################################################"
-echo "#########          Arco Apps Removed            ################"
-echo "################################################################"
+sudo pacman -R arcolinix-arc-themes-nico-git --noconfirm
+sudo pacman -R arcolinix-grub-theme-vimix-git --noconfirm
+sudo pacman -R arcolinix-keyring --noconfirm
+sudo pacman -R arcolinix-local-git --noconfirm
+sudo pacman -R arcolinix-mirrorlist-git --noconfirm
+sudo pacman -R arcolinix-neofetch-git --noconfirm
+sudo pacman -R arcolinix-system-config-git --noconfirm
+sudo pacman -R arcolinix-wallpapers-git --noconfirm
