@@ -16,3 +16,7 @@ sudo pacman -R arcolinix-mirrorlist-git --noconfirm
 sudo pacman -R arcolinix-neofetch-git --noconfirm
 sudo pacman -R arcolinix-system-config-git --noconfirm
 sudo pacman -R arcolinix-wallpapers-git --noconfirm
+
+echo "################################################################"
+echo "#########        Arco Packages Removed          ################"
+echo "################################################################"
