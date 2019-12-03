@@ -14,7 +14,8 @@ echo "#################################################"
 echo "Removing xcursor-breeze to avoid conflict with breeze"
 #sudo pacman -R xcursor-breeze --noconfirm
 
-sudo pacman -Syyu
+#sudo pacman -Syyu
+sudo pacman -S konsole --noconfirm --needed
 sudo pacman -S sddm sddm-kcm --noconfirm --needed
 sudo pacman -S plasma --noconfirm --needed
 #sudo pacman -S plasma-dekstop --noconfirm --needed   ## More minimal installation
