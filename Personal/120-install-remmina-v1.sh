@@ -11,7 +11,6 @@ set -e
 
 #KDE Apps
 sudo pacman -S remmina --noconfirm --needed
-yaourt -S remmina-plugin-rdesktop --noconfirm --needed
 sudo pacman -S freerdp --noconfirm --needed
 
 

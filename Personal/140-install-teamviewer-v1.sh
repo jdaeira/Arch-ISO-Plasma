@@ -10,7 +10,7 @@ set -e
 ##################################################################################################################
 
 
-yaourt -S teamviewer --noconfirm --needed
+yay -S teamviewer --noconfirm --needed
 systemctl enable teamviewerd
 systemctl start teamviewerd
 
