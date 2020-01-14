@@ -10,10 +10,9 @@ set -e
 ##################################################################################################################
 
 
-sudo pacman -S net-tools gtkmm --noconfirm --needed
 sudo pacman -S open-vm-tools --noconfirm --needed
-sudo pacman -S xf86-video-vmware --noconfirm --needed
-sudo pacman -S xf86-input-mouse --noconfirm --needed
+sudo pacman -Su xf86-input-vmmouse xf86-video-vmware mesa gtk2 gtkmm --noconfirm --needed
+systemctl start vmtoolsd
 systemctl enable vmtoolsd
 
 
