@@ -9,8 +9,8 @@ set -e
 #
 ##################################################################################################################
 
-
-
+sudo mkdir /etc/logo
+sudo cp /home/jdaeira/Development/Arch-ISO-Plasma/Icons/arch_blue.png /etc/logo
 sudo cat os-release > /etc/os-release
 sudo cat lsb-release > /etc/lsb-release
 #sudo cat grub > /etc/default/grub
