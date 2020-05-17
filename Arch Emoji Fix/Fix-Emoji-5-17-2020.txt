@@ -1,0 +1,36 @@
+1. Install noto-fonts-emoji
+How to do it using the terminal? Click to expand.
+
+2. Create /etc/fonts/local.conf with the following content:
+
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+
+ <alias>
+   <family>sans-serif</family>
+   <prefer>
+     <family>Noto Sans</family>
+     <family>Noto Color Emoji</family>
+     <family>Noto Emoji</family>
+     <family>DejaVu Sans</family>
+   </prefer> 
+ </alias>
+
+ <alias>
+   <family>serif</family>
+   <prefer>
+     <family>Noto Serif</family>
+     <family>Noto Color Emoji</family>
+     <family>Noto Emoji</family>
+     <family>DejaVu Serif</family>
+   </prefer>
+ </alias>
+ 
+ 
+ 
+ This will change your default fonts to Noto, you can customize it if you want.
+
+3. Change display font in the settings
+
+Go to your settings or configuration tool and change the font to “Sans Serif”. This will use the configuration we’ve just created so apps can show emoji.
