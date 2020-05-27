@@ -1,33 +1,51 @@
-1. Install noto-fonts-emoji
+1. Install noto-fonts-emoji and ttf-twemoji
+   
 How to do it using the terminal? Click to expand.
 
 2. Create /etc/fonts/local.conf with the following content:
 
-<?xml version="1.0"?>
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<?xml version='1.0'?>
+<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
 <fontconfig>
+    <match target="font">
+        <edit mode="assign" name="rgba">
+        <const>rgb</const>
+        </edit>
+    </match>
+    <match target="font">
+        <edit mode="assign" name="hinting">
+        <bool>true</bool>
+        </edit>
+    </match>
+    <match target="font">
+        <edit mode="assign" name="hintstyle">
+        <const>hintfull</const>
+        </edit>
+    </match>
+    <match target="font">
+        <edit mode="assign" name="antialias">
+        <bool>true</bool>
+        </edit>
+    </match>
+    <match target="font">
+        <edit mode="assign" name="lcdfilter">
+        <const>lcddefault</const>
+        </edit>
+    </match>
+    <match target="font">
+        <edit name="autohint" mode="assign">
+        <bool>false</bool>
+        </edit>
+    </match>
+    <match target="pattern"> 
+        <edit name="family" mode="prepend"> 
+        <string>Twemoji</string> 
+        </edit> 
+    </match> 
+</fontconfig>
 
- <alias>
-   <family>sans-serif</family>
-   <prefer>
-     <family>Noto Sans</family>
-     <family>Noto Color Emoji</family>
-     <family>Noto Emoji</family>
-     <family>DejaVu Sans</family>
-   </prefer> 
- </alias>
-
- <alias>
-   <family>serif</family>
-   <prefer>
-     <family>Noto Serif</family>
-     <family>Noto Color Emoji</family>
-     <family>Noto Emoji</family>
-     <family>DejaVu Serif</family>
-   </prefer>
- </alias>
  
- 
+fc-cache after this file is made 
  
  This will change your default fonts to Noto, you can customize it if you want.
 
