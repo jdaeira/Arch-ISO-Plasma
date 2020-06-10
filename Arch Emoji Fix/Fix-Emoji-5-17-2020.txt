@@ -22,7 +22,7 @@ How to do it using the terminal? Click to expand.
         <const>hintfull</const>
         </edit>
     </match>
-    <match target="font">
+    <match tdddarget="font">
         <edit mode="assign" name="antialias">
         <bool>true</bool>
         </edit>
