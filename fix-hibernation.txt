@@ -1,4 +1,4 @@
 lsblk -f -> find the name of the swap drive
 sudo nano /etc/default/grub
 GRUB_CMDLINE_LINUX=“resume=/dev/sda6” -> replace /dev/sda6 with the name of your swap drive
-
+grub-mkconfig -o /boot/grub/grub.cfg
